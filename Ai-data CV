@@ -1,5 +1,30 @@
 name = "Oskari"
-Age = 30
+age = 30
 
-print(name)
-print(age)
+print(f"Name: {name}")
+print(f"Age: {age}")
+
+hobbies = ["Football", "Golf", "Running"]
+previous_work = ["Brewery", "Mortician", "Entrepreneur"]
+studies = [
+    "Vocational Qualification in the Process Industry and Physics",
+    "Further Vocational Qualification for Entrepreneurs",
+    "Bachelor of Business Administration"
+]
+
+def greet(name):
+    return f"Hello {name}"
+
+print(greet("Heikkilä & Co"))
+
+print("\nHobbies:")
+for hobby in hobbies:
+    print("-", hobby)
+
+print("\nPrevious Work:")
+for experience in previous_work:
+    print("-", experience)
+
+print("\nStudies:")
+for knowledge in studies:
+    print("-", knowledge)
