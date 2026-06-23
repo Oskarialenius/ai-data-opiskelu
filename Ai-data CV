@@ -1,2 +1,5 @@
 name = "Oskari"
 Age = 30
+
+print(name)
+print(age)
